@@ -1,4 +1,3 @@
-import riddles from "../riddles/riddles.js"
 
 const print_choices = choices => {
     for (let i = 0; i < choices.length; i++) {
