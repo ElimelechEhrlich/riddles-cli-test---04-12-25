@@ -10,7 +10,6 @@ function check_answer(index) {
             console.log(`Riddle ${riddles[index]['id']}: ${riddles[index]['name']}\n${riddles[index]['taskDescription']}`);
             print_choices(riddles[index]['choices'])
             const answer = input('your answer: ')
-            console.log(correct_answer_check(riddles[index], answer))
             if (correct_answer_check(riddles[index], answer)){
                 console.log `Correct!`
             }
@@ -21,7 +20,6 @@ function check_answer(index) {
         else {
             console.log(`Riddle ${riddles[index]['id']}: ${riddles[index]['name']}\n${riddles[index]['taskDescription']}`);
             const answer = input('your answer: ')
-            console.log(correct_answer_check(riddles[index], answer))
             if (correct_answer_check(riddles[index], answer)){
                 console.log `Correct!`
                 return
