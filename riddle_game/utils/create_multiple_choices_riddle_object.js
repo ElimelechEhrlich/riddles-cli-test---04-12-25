@@ -1,6 +1,4 @@
 
-const riddle_keys = [id, name, taskDescription, [choices], correctAnswer]
-
 function create_multiple_choices_riddle(id, name, taskDescription, choices, correctAnswer) {
     const choices_riddle = {
         id, 
@@ -9,6 +7,7 @@ function create_multiple_choices_riddle(id, name, taskDescription, choices, corr
         choices: [],
         correctAnswer
     }
+    return choices_riddle
 }
 
-export default create_choice_riddle
+export default create_multiple_choices_riddle

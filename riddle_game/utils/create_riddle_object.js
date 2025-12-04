@@ -1,13 +1,12 @@
 
-const riddle_keys = [id, name, taskDescription, correctAnswer]
-
 function create_riddle(id, name, taskDescription, correctAnswer) {
     const riddle = {
-        id, 
+        id,
         name, 
         taskDescription, 
         correctAnswer
     }
+    return riddle
 }
 
 export default create_riddle
