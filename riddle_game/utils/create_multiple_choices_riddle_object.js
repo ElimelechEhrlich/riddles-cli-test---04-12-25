@@ -4,7 +4,7 @@ function create_multiple_choices_riddle(id, name, taskDescription, choices, corr
         id, 
         name, 
         taskDescription, 
-        choices: [],
+        choices,
         correctAnswer
     }
     return choices_riddle

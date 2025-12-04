@@ -1,0 +1,23 @@
+{
+  "name": "riddles-cli-test---04-12-25",
+  "version": "1.0.0",
+  "description": "Elimelech Ehrlich\r 315592527\r Galil\r description:\r challenge:",
+  "homepage": "https://github.com/ElimelechEhrlich/riddles-cli-test---04-12-25#readme",
+  "bugs": {
+    "url": "https://github.com/ElimelechEhrlich/riddles-cli-test---04-12-25/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElimelechEhrlich/riddles-cli-test---04-12-25.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "analiza-sync": "^1.0.1"
+  }
+}
