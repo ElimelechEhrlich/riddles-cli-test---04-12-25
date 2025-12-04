@@ -3,6 +3,5 @@ import r2 from "./r2.js";
 import r3 from "./r3.js";
 
 const riddles = [r1, r2, r3]
-console.log(riddles)
 
 export default riddles
